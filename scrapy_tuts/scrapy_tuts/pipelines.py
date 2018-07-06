@@ -8,4 +8,5 @@
 
 class ScrapyTutsPipeline(object):
     def process_item(self, item, spider):
+        print("LLLLLOOOOOOOKKKKKKKK :: ", type(item), item)
         return item
