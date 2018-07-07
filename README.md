@@ -5,8 +5,8 @@ Web scraping, web harvesting, or web data extraction is data scraping used for e
 ### Scrapy ([Tutorials](https://docs.scrapy.org/en/latest/intro/tutorial.html))
 
 1. scrapy startproject <project-name>
-2. scrapy crawl <spider-name> (E.g. : `quotes_spider.py` then, `scrapy crawl quotes`)
-3. scrapy shell "<url>"
+2. scrapy crawl <spider-name> (E.g. : Do not see the file name `quotes_spider.py`, see `name = "quotes"` inside sipder's class , `scrapy crawl quotes`)
+3. scrapy shell "url"
 4. response.css('title')
 5. response.css('title::text').extract()
 6. response.css('title::text').extract_first()
